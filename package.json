@@ -1,6 +1,6 @@
 {
     "name": "@jbpartin/react-carousel",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "A simple react component that allows you to easily make a carousel slider.",
     "author": "JBPartin",
     "license": "MIT",

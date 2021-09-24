@@ -7,14 +7,14 @@
 ## Install
 
 ```bash
-npm install --save react-carousel
+npm install @jbpartin/react-carousel
 ```
 
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
-import Carousel from 'react-carousel'
+import Carousel from '@jbpartin/react-carousel'
 import 'react-carousel/dist/index.css'
 
 class Example extends Component {
