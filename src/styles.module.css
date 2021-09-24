@@ -1,9 +1,56 @@
-/* add css module styles here (optional) */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.carousel {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  padding: 0 4%;
+  height: 100%;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+.item {
+  object-fit: contain;
+  min-height: 120px;
+  margin-right: 10px;
+  transition: transform 700ms;
+  background-color: gray;
+  z-index: 0;
+
+}
+
+.left-arrow {
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #0003;
+  z-index: 2;
+  top: 4vw;
+  bottom: 4vw;
+  left: 0;
+  width: 35px;
+}
+.hidden{
+  display: none;
+}
+.right-arrow {
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #0003;
+  z-index: 2;
+  top: 4vw;
+  bottom: 4vw;
+  right: 0;
+  width: 35px;
 }
